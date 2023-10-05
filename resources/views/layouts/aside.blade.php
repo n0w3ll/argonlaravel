@@ -2,7 +2,7 @@
     <div class="h-19">
         <i class="absolute top-0 right-0 p-4 opacity-50 cursor-pointer fas fa-times dark:text-white text-slate-400 xl:hidden" sidenav-close></i>
         <a class="block px-8 py-6 m-0 text-sm whitespace-nowrap dark:text-white text-slate-700" href="{{ route('dashboard') }}">
-            <x-application-logo class="inline block h-9 w-auto fill-current text-gray-800 dark:text-gray-200" />
+            <x-application-logo class="inline block h-9 w-auto fill-current text-gray-800 dark:text-white" />
             <!-- <img src="{{ asset('argon/img/logo-ct-dark.png') }}" class="inline h-full max-w-full transition-all duration-200 dark:hidden ease-nav-brand max-h-8" alt="main_logo" />
             <img src="{{ asset('argon/img/logo-ct.png') }}" class="hidden h-full max-w-full transition-all duration-200 dark:inline ease-nav-brand max-h-8" alt="main_logo" /> -->
             <span class="ml-1 font-semibold transition-all duration-200 ease-nav-brand">Argon Dashboard 2</span>
@@ -79,7 +79,7 @@
                     <div class="mr-2 flex h-8 w-8 items-center justify-center rounded-lg bg-center stroke-0 text-center xl:p-2.5">
                         <i class="relative top-0 text-sm leading-normal text-gray-500 ni ni-button-power"></i>
                     </div>
-                    <span class="ml-1 duration-300 opacity-100 pointer-events-none ease">Sign Out</span>
+                    <span class="ml-1 duration-300 opacity-100 pointer-events-none ease">{{ __('Log Out') }}</span>
                 </a>
             </li>
             </form>

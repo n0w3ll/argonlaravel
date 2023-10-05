@@ -1044,6 +1044,10 @@ h6 {
   margin-top: -14rem;
 }
 
+.mt-5 {
+  margin-top: 5rem;
+}
+
 .mt-60 {
   margin-top: 15rem;
 }
@@ -1987,16 +1991,16 @@ h6 {
   background-image: none;
 }
 
-.bg-\[url\(\'https\:\/\/raw\.githubusercontent\.com\/creativetimofficial\/public-assets\/master\/argon-dashboard-pro\/assets\/img\/profile-layout-header\.jpg\'\)\] {
-  background-image: url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/argon-dashboard-pro/assets/img/profile-layout-header.jpg');
+.bg-\[url\(\'\/argon\/img\/profile-layout-header\.jpg\'\)\] {
+  background-image: url('./argon/img/profile-layout-header.jpg');
 }
 
-.bg-\[url\(\'https\:\/\/raw\.githubusercontent\.com\/creativetimofficial\/public-assets\/master\/argon-dashboard-pro\/assets\/img\/signin-ill\.jpg\'\)\] {
-  background-image: url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/argon-dashboard-pro/assets/img/signin-ill.jpg');
+.bg-\[url\(\'\/argon\/img\/signin-ill\.jpg\'\)\] {
+  background-image: url('./argon/img/signin-ill.jpg');
 }
 
-.bg-\[url\(\'https\:\/\/raw\.githubusercontent\.com\/creativetimofficial\/public-assets\/master\/argon-dashboard-pro\/assets\/img\/signup-cover\.jpg\'\)\] {
-  background-image: url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/argon-dashboard-pro/assets/img/signup-cover.jpg');
+.bg-\[url\(\'\/argon\/img\/signup-cover\.jpg\'\)\] {
+  background-image: url('./argon/img/signup-cover.jpg');
 }
 
 .from-transparent {

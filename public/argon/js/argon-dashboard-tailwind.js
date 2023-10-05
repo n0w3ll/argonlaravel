@@ -22,46 +22,46 @@ if (!aux.includes("pages")) {
   page = "dashboard";
 }
 
-loadStylesheet(to_build + "assets/css/perfect-scrollbar.css");
-loadJS(to_build + "assets/js/perfect-scrollbar.js", true);
+loadStylesheet(to_build + "argon/css/perfect-scrollbar.css");
+loadJS(to_build + "argon/js/perfect-scrollbar.js", true);
 
 if (document.querySelector("[slider]")) {
-  loadJS(to_build + "assets/js/carousel.js", true);
+  loadJS(to_build + "argon/js/carousel.js", true);
 }
 
 if (document.querySelector("nav [navbar-trigger]")) {
-  loadJS(to_build + "assets/js/navbar-collapse.js", true);
+  loadJS(to_build + "argon/js/navbar-collapse.js", true);
 }
 
 if (document.querySelector("[data-target='tooltip']")) {
-  loadJS(to_build + "assets/js/tooltips.js", true);
-  loadStylesheet(to_build + "assets/css/tooltips.css");
+  loadJS(to_build + "argon/js/tooltips.js", true);
+  loadStylesheet(to_build + "argon/css/tooltips.css");
 }
 
 if (document.querySelector("[nav-pills]")) {
-  loadJS(to_build + "assets/js/nav-pills.js", true);
+  loadJS(to_build + "argon/js/nav-pills.js", true);
 }
 
 if (document.querySelector("[dropdown-trigger]")) {
-  loadJS(to_build + "assets/js/dropdown.js", true);
+  loadJS(to_build + "argon/js/dropdown.js", true);
 
 }
 
 if (document.querySelector("[fixed-plugin]")) {
-  loadJS(to_build + "assets/js/fixed-plugin.js", true);
+  loadJS(to_build + "argon/js/fixed-plugin.js", true);
 }
 
 if (document.querySelector("[navbar-main]") || document.querySelector("[navbar-profile]")) {
   if(document.querySelector("[navbar-main]")){
-    loadJS(to_build + "assets/js/navbar-sticky.js", true);
+    loadJS(to_build + "argon/js/navbar-sticky.js", true);
   }
   if (document.querySelector("aside")) {
-    loadJS(to_build + "assets/js/sidenav-burger.js", true);
+    loadJS(to_build + "argon/js/sidenav-burger.js", true);
   }
 }
 
 if (document.querySelector("canvas")) {
-  loadJS(to_build + "assets/js/charts.js", true);
+  loadJS(to_build + "argon/js/charts.js", true);
 }
 
 if (document.querySelector(".github-button")) {
